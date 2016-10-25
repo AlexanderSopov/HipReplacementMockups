@@ -35,4 +35,5 @@ public class Approver : MonoBehaviour {
             - new Vector3(stick.transform.rotation.x, stick.transform.rotation.y, stick.transform.rotation.z);
         return distanceVector.magnitude < 0.2f && rotationVector.magnitude < 0.1f;
     }
+
 }

@@ -2,7 +2,8 @@
 using System.Collections;
 using System;
 
-public class CameraMovement : MonoBehaviour {
+public class CameraMovement : MonoBehaviour
+{
     public float moveSpeed = 10f;
     public float moveSpeedMultiplier = 10f;
 
@@ -10,11 +11,13 @@ public class CameraMovement : MonoBehaviour {
     public float rotationStop = 90.0f;
     private float _rotationStop;
     // Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update (){
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.GetMouseButton(0))
             return;
         float speed = moveSpeed;
@@ -27,9 +30,9 @@ public class CameraMovement : MonoBehaviour {
         if (Input.GetKey("d"))
             transform.Translate(Time.deltaTime * speed, 0, 0);
         if (Input.GetKey("a"))
-            transform.Translate(Time.deltaTime *-1* speed, 0, 0);
+            transform.Translate(Time.deltaTime * -1 * speed, 0, 0);
         rotate();
-        
+
     }
 
     private void rotate()
