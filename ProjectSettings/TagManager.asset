@@ -16,9 +16,9 @@ TagManager:
   - 
   - MainCamOnly
   - PerspectiveCamerasOnly
-  - 
-  - 
-  - 
+  - ISOCAM
+  - RightCam
+  - LeftCam
   - 
   - 
   - 

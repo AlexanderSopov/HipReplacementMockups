@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 6b21d4beedc6a714889b08663a969701
+timeCreated: 1477473837
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR
+    100002: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart0
+    100004: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart1
+    100006: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart2
+    100008: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart3
+    100010: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart4
+    100012: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart5
+    100014: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000
+    100016: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart0
+    100018: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart1
+    100020: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart2
+    100022: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart3
+    100024: //RootNode
+    400000: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR
+    400002: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart0
+    400004: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart1
+    400006: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart2
+    400008: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart3
+    400010: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart4
+    400012: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart5
+    400014: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000
+    400016: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart0
+    400018: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart1
+    400020: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart2
+    400022: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart3
+    400024: //RootNode
+    2300000: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart0
+    2300002: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart1
+    2300004: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart2
+    2300006: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart3
+    2300008: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart4
+    2300010: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart5
+    2300012: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart0
+    2300014: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart1
+    2300016: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart2
+    2300018: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart3
+    3300000: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart0
+    3300002: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart1
+    3300004: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart2
+    3300006: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart3
+    3300008: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart4
+    3300010: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart5
+    3300012: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart0
+    3300014: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart1
+    3300016: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart2
+    3300018: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart3
+    4300000: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart0
+    4300002: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart1
+    4300004: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart2
+    4300006: 3953 Digital file of 1296 Hemipelvis, right converted to mm.000_MeshPart3
+    4300008: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart0
+    4300010: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart1
+    4300012: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart2
+    4300014: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart3
+    4300016: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart4
+    4300018: 3953 Digital file of 1296 Hemipelvis, right converted to mm PR_MeshPart5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

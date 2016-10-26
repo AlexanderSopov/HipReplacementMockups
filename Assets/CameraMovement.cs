@@ -10,6 +10,7 @@ public class CameraMovement : MonoBehaviour
     public float mouseSensitivy = 20.0f;
     public float rotationStop = 90.0f;
     private float _rotationStop;
+    private bool tabbed = false;
     // Use this for initialization
     void Start()
     {
@@ -18,7 +19,9 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown("tab"))
+            tabbed = !tabbed;
+        if (tabbed)
             return;
         float speed = moveSpeed;
         if (Input.GetKey("left shift"))
@@ -38,8 +41,8 @@ public class CameraMovement : MonoBehaviour
     private void rotate()
     {
         float x = Time.deltaTime * Input.GetAxis("Mouse X") * mouseSensitivy;
-        float y = Time.deltaTime * -1 * Input.GetAxis("Mouse Y") * mouseSensitivy;
-        transform.RotateAround(transform.position, transform.up, x);
-        transform.RotateAround(transform.position, transform.right, y);
+        float y = Time.deltaTime  * Input.GetAxis("Mouse Y") * mouseSensitivy;
+        transform.RotateAround(transform.position, Vector3.up, x);
+        transform.RotateAround(transform.position, Vector3.right, y);
     }
 }
