@@ -19,7 +19,7 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("tab"))
+        if (Input.GetKeyDown("tab") || Input.GetKeyDown("mouse 0"))
             tabbed = !tabbed;
         if (tabbed)
             return;

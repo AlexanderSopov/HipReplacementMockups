@@ -6,8 +6,10 @@ public class Approver : MonoBehaviour {
 
     public GameObject stick;
     public Material material;
-    
-	void Start () {
+    public float distanceAllowance = 0.3f;
+    public float rotationAllowance = 0.2f;
+
+    void Start () {
 	}
 	
 	// Update is called once per frame
@@ -33,7 +35,7 @@ public class Approver : MonoBehaviour {
         Vector3 distanceVector = transform.position - stick.transform.position;
         Vector3 rotationVector =new Vector3(transform.rotation.x, transform.rotation.y, transform.rotation.z)
             - new Vector3(stick.transform.rotation.x, stick.transform.rotation.y, stick.transform.rotation.z);
-        return distanceVector.magnitude < 0.2f && rotationVector.magnitude < 0.1f;
+        return distanceVector.magnitude < distanceAllowance && rotationVector.magnitude < rotationAllowance;
     }
 
 }
