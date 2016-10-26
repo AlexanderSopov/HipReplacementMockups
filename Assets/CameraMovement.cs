@@ -43,6 +43,6 @@ public class CameraMovement : MonoBehaviour
         float x = Time.deltaTime * Input.GetAxis("Mouse X") * mouseSensitivy;
         float y = Time.deltaTime  * Input.GetAxis("Mouse Y") * mouseSensitivy;
         transform.RotateAround(transform.position, Vector3.up, x);
-        transform.RotateAround(transform.position, Vector3.right, y);
+        transform.RotateAround(transform.position, transform.right, -y);
     }
 }
