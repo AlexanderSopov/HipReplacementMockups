@@ -4,8 +4,10 @@ using System;
 
 public class XYRotatorManipulator : RotatorManipulator
 {
-    internal override void rotate(Vector3 initialToCurrentPosition, Vector3 scaledLocalPositionDelta)
+    internal override void rotate(Vector3 scaledLocalPositionDelta)
     {
-        throw new NotImplementedException();
+        Transform _transform = targetObject.transform;
+        _transform.RotateAround(_transform.position, _transform.up, scaledLocalPositionDelta.x);
+        _transform.RotateAround(_transform.position, _transform.right, scaledLocalPositionDelta.y);
     }
 }

@@ -35,3 +35,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Mockup Hololens.unity
   - enabled: 0
     path: Assets/Scenes/check-sizes.unity
+  - enabled: 0
+    path: Assets/Scenes/Mockup Desktop.unity

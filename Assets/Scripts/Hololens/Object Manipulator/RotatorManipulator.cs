@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using UnityEngine;
 
 public abstract class RotatorManipulator : HipToolManipulator
@@ -15,13 +15,13 @@ public abstract class RotatorManipulator : HipToolManipulator
         // axis of movement by some amount (camera relative).  This value can be changed in the editor or
         // at runtime based on the needs of individual movement scenarios.
         Vector3 scaledLocalPositionDelta = Vector3.Scale(initialToCurrentPosition, PositionScale);
-
+        Debug.Log(string.Format("Rotate using this {0} vector", scaledLocalPositionDelta.ToString()));
         // If the object has an interpolator we should use it, otherwise just move the transform directly
-        move(initialToCurrentPosition, scaledLocalPositionDelta);
-        rotate(initialToCurrentPosition, scaledLocalPositionDelta);
+        rotate(scaledLocalPositionDelta);
+        move(scaledLocalPositionDelta);
     }
 
-    private void move(Vector3 initialToCurrentPosition, Vector3 scaledLocalPositionDelta)
+    private void move(Vector3 scaledLocalPositionDelta)
     {
 
         Vector3 localObjectPosition = initialObjectPosition + new Vector3(0, 0, scaledLocalPositionDelta.z);
@@ -36,6 +36,6 @@ public abstract class RotatorManipulator : HipToolManipulator
         }
     }
 
-    internal abstract void rotate(Vector3 initialToCurrentPosition, Vector3 scaledLocalPositionDelta);
+    internal abstract void rotate(Vector3 scaledLocalPositionDelta);
 
 }

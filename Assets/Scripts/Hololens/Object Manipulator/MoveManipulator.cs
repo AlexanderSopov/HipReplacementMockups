@@ -35,7 +35,8 @@ public class MoveManipulator : HipToolManipulator {
         }
         else
         {
-            targetObject.transform.position = worldObjectPosition;
+            if (worldObjectPosition != null)
+                targetObject.transform.position = worldObjectPosition;
         }
             
     }

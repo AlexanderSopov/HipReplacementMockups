@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37efeb37685e7b54aaa3ca0f46fc8094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PositionScale: {x: 2, y: 2, z: 4}
-  targetObject: {fileID: 0}
+  PositionScale: {x: 10, y: 10, z: 4}
+  targetObject: {fileID: 1978966246}
 --- !u!1 &239408542
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013243965410, guid: 90749889d87976143a9e21072d2434b4, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90749889d87976143a9e21072d2434b4, type: 2}
@@ -641,7 +641,7 @@ Transform:
   - {fileID: 321601409}
   - {fileID: 1433436916}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &922974764
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionScale: {x: 2, y: 2, z: 4}
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1978966246}
 --- !u!1 &1389133865
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,8 +903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dad664428deb264ab21c2892d7916b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PositionScale: {x: 2, y: 2, z: 4}
-  targetObject: {fileID: 0}
+  PositionScale: {x: 10, y: 10, z: 4}
+  targetObject: {fileID: 1978966246}
 --- !u!1001 &1433436915
 Prefab:
   m_ObjectHideFlags: 0
@@ -990,7 +990,7 @@ Transform:
   - {fileID: 2116310248}
   - {fileID: 922974765}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &1681137894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef26a362f41c5248aca879be2a5f04b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1978966246 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010486272154, guid: 89a4717a2187b0340988dcbb4e6d1267,
+    type: 2}
+  m_PrefabInternal: {fileID: 321601408}
 --- !u!1 &2116310247
 GameObject:
   m_ObjectHideFlags: 0
