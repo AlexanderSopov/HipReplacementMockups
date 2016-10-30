@@ -24,15 +24,15 @@ namespace HoloToolkit.Unity
         [Tooltip("How much to scale each axis of movement (camera relative) when manipulating the object")]
         public Vector3 PositionScale = new Vector3(2.0f, 2.0f, 4.0f);  // Default tuning values, expected to be modified per application
 
-        private Vector3 initialManipulationPosition;
+        protected Vector3 initialManipulationPosition;
 
-        private Vector3 initialObjectPosition;
+        protected Vector3 initialObjectPosition;
 
-        private Interpolator targetInterpolator;
+        protected Interpolator targetInterpolator;
 
-        private GestureManager gestureManager;
+        protected GestureManager gestureManager;
 
-        private bool Manipulating { get; set; }
+        protected bool Manipulating { get; set; }
 
         private void Awake()
         { 
