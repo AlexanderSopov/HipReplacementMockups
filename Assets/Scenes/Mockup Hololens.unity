@@ -153,11 +153,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 157169842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87bbfd453921ccd40b483e0f04040ddb, type: 3}
+  m_Script: {fileID: 11500000, guid: 37efeb37685e7b54aaa3ca0f46fc8094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PositionScale: {x: 2, y: 2, z: 4}
-  target: {fileID: 1834162240}
+  targetObject: {fileID: 0}
 --- !u!1 &239408542
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionScale: {x: 2, y: 2, z: 4}
-  target: {fileID: 1834162240}
+  targetObject: {fileID: 0}
 --- !u!65 &239408547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionScale: {x: 2, y: 2, z: 4}
-  target: {fileID: 1834162240}
+  targetObject: {fileID: 0}
 --- !u!1 &1389133865
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,11 +900,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1389133865}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87bbfd453921ccd40b483e0f04040ddb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dad664428deb264ab21c2892d7916b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PositionScale: {x: 2, y: 2, z: 4}
-  target: {fileID: 1834162240}
+  targetObject: {fileID: 0}
 --- !u!1001 &1433436915
 Prefab:
   m_ObjectHideFlags: 0
@@ -1082,11 +1082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef26a362f41c5248aca879be2a5f04b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1834162240 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010486272154, guid: 89a4717a2187b0340988dcbb4e6d1267,
-    type: 2}
-  m_PrefabInternal: {fileID: 321601408}
 --- !u!1 &2116310247
 GameObject:
   m_ObjectHideFlags: 0
