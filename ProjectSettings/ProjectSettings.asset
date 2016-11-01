@@ -368,7 +368,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 005463f1464fd301
+  metroCertificateNotAfter: 000547e2d751d301
   metroApplicationDescription: 2013_10 - Sample Assets
   wsaImages: {}
   metroTileShortName: 
@@ -478,7 +478,7 @@ PlayerSettings:
   - iOS::VR::enable
   - tvOS::VR::enable
   Android::VR::enable: 0
-  Metro::VR::enable: 0
+  Metro::VR::enable: 1
   N3DS::VR::enable: 0
   PS3::VR::enable: 0
   PS4::VR::enable: 0
