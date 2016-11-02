@@ -10,8 +10,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: 2013_10 - Sample Assets
+  companyName: Qamcom
+  productName: Hip Replacement
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenStyle: 0
@@ -371,7 +371,7 @@ PlayerSettings:
   metroCertificateNotAfter: 000547e2d751d301
   metroApplicationDescription: 2013_10 - Sample Assets
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Hip Replacement
   metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
